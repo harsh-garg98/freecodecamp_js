@@ -1,0 +1,137 @@
+body {
+  background-color: aliceblue;
+  color: black;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.underline {
+  background-color: aqua;
+  height: 0.7vh;
+  width: 10vw;
+  margin-left: 25%;
+}
+
+article {
+  max-width: 60%;
+  width: 100%;
+  /* height: 50vh; */
+  background-color: white;
+  box-shadow: 10px 10px 7px rgb(0, 0, 0, 0.2);
+  border-radius: 2%;
+  margin: 5vh auto auto auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  max-width: 15%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 10px -5px 0 aqua;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: aqua;
+  position: absolute;
+  left: 43%;
+  top: 35%;
+}
+
+#job {
+  color: aqua;
+}
+
+h4,
+p {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#prev-btn {
+  margin-right: 5%;
+}
+
+#next-btn {
+  margin-left: 5%;
+}
+
+.navigation-btn {
+  background-color: inherit;
+  color: aqua;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.navigation-btn:hover {
+  border-color: aqua;
+}
+
+.random-btn {
+  margin: auto;
+  background-color: inherit;
+  border-radius: 8px;
+  color: aqua;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  transition: background-color 0.25s;
+}
+
+.random-btn:hover {
+  border-color: aqua;
+  background-color: blue;
+}
+
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
